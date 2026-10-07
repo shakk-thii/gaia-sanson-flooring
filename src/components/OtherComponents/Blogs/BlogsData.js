@@ -135,7 +135,7 @@ const BlogsData = [
       {
         question: "Are PET acoustic panels better than foam?",
         answer:
-          "For finished interiors, usually yes: PET panels are rigid, can be cleaned, can be mounted with an air gap and come in colours, grooves and prints. Foam remains a reasonable choice for studios and hidden treatment.",
+          "For finished interiors, usually yes: PET panels hold their shape, are easy to keep clean, can be mounted with an air gap and come in colours, grooves and prints. Foam remains a reasonable choice for studios and hidden treatment.",
       },
       {
         question: "Does acoustic foam soundproof a room?",
@@ -145,7 +145,7 @@ const BlogsData = [
       {
         question: "Can acoustic panels be cleaned?",
         answer:
-          "Yes. A rigid PET panel can be cleaned, which is one reason it suits busy commercial spaces. Ask us for the cleaning advice for the finish you choose.",
+          "Yes. A PET panel can be vacuumed with a soft brush attachment, which is one reason it suits busy commercial spaces. Ask us for the cleaning advice for the finish you choose.",
       },
     ],
   },
