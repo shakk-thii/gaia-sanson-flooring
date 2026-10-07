@@ -18,6 +18,226 @@
 
 const BlogsData = [
   {
+    id: 5,
+    slug: "how-to-reduce-echo-in-a-room",
+    title: "How to Reduce Echo in a Room: What Actually Works",
+    seoTitle: "How to Reduce Echo in a Room: What Works | GAIA",
+    metaDescription:
+      "How to reduce echo in a room: treat the facing walls first, then the ceiling and floor. A clap-test checklist, a treatment diagram and what absorbs sound.",
+    excerpt:
+      "Echo comes from hard, parallel surfaces. Which surfaces to treat first, what absorbs sound, and how panels, ceiling absorbers and carpet work together.",
+    category: "Acoustic Panels",
+    cluster: "room-acoustics",
+    tags: ["Acoustics", "Acoustic Panels", "Carpet Tiles"],
+    author: "GAIA by Sanson Floorings",
+    location: "New Delhi",
+    publishedDate: "2026-10-07",
+    readTime: "11 min read",
+    coverImage:
+      "/Images/Blogs/how-to-reduce-echo-in-a-room/hero-home-office-geometric-acoustic-wall-panels.webp",
+    coverImageAlt:
+      "Home office desk with a laptop and a computer monitor in front of a wall of teal, mustard, orange and grey geometric acoustic panels",
+    ogImage:
+      "/Images/Blogs/how-to-reduce-echo-in-a-room/og-how-to-reduce-echo-in-a-room.jpg",
+    relatedProduct: {
+      name: "Acoustic PET Panels",
+      path: "/categories/acoustic-tiles",
+    },
+    faqs: [
+      {
+        question: "What absorbs echo in a room?",
+        answer:
+          "Soft, porous materials absorb echo: acoustic panels, carpet, heavy curtains and upholstered furniture. A GAIA PET acoustic panel absorbs 85 to 90 per cent of the sound that reaches it when mounted with an air gap.",
+      },
+      {
+        question: "Does furniture reduce echo?",
+        answer:
+          "Upholstered sofas, cushions, curtains and full bookshelves all reduce echo a little. They help, but a room with hard walls and a high ceiling usually still needs panels on the walls and absorption overhead.",
+      },
+      {
+        question: "Why does my new house echo so much?",
+        answer:
+          "New homes are often finished in tile, plaster and glass, with little soft furniture yet. Every surface reflects sound, so echo is at its worst before rugs, curtains and furniture arrive.",
+      },
+    ],
+  },
+  {
+    id: 8,
+    slug: "noise-reduction-open-plan-office",
+    title: "Noise in Open-Plan Offices: Seven Fixes That Work",
+    seoTitle: "Noise Reduction in Open-Plan Offices: 7 Fixes | GAIA",
+    metaDescription:
+      "Noise reduction in an open-plan office: absorb speech at the ceiling and walls, soften the floor and zone loud and quiet work. Seven fixes, ranked.",
+    excerpt:
+      "Open-plan noise is reflected speech. Seven fixes, from quick wins to structural changes, to make an open office calmer without putting the walls back up.",
+    category: "Acoustic Panels",
+    cluster: "room-acoustics",
+    tags: ["Workplace", "Acoustics", "Carpet Tiles"],
+    author: "GAIA by Sanson Floorings",
+    location: "New Delhi",
+    publishedDate: "2026-10-07",
+    readTime: "7 min read",
+    coverImage:
+      "/Images/Blogs/noise-reduction-open-plan-office/hero-open-plan-office-ceiling-clouds.webp",
+    coverImageAlt:
+      "Open-plan office with a dark purple ceiling, suspended rectangular ceiling panels with lights, red perforated screens and orange seating",
+    ogImage:
+      "/Images/Blogs/noise-reduction-open-plan-office/og-noise-reduction-open-plan-office.jpg",
+    relatedProduct: {
+      name: "Acoustic PET Panels",
+      path: "/categories/acoustic-tiles",
+    },
+    faqs: [
+      {
+        question: "What is the cheapest way to reduce noise in an open office?",
+        answer:
+          "Rearranging teams so that call-heavy and focus work sit apart costs little and often helps straight away. After that, treating the ceiling usually brings the largest improvement for the area covered.",
+      },
+      {
+        question: "Do desk screens reduce noise?",
+        answer:
+          "Screens block the direct sound between neighbouring desks, but sound still reaches people via the ceiling. They work best combined with ceiling absorption and a carpeted floor.",
+      },
+      {
+        question: "Can acoustic panels go on a glass wall?",
+        answer:
+          "Panels are fixed to solid walls, ceilings or frames rather than to glass. In glass-walled rooms, treat the solid walls, the ceiling and the floor instead.",
+      },
+    ],
+  },
+  {
+    id: 9,
+    slug: "acoustic-panels-vs-foam",
+    title: "Acoustic Panels vs Acoustic Foam: Which Should You Use?",
+    seoTitle: "Acoustic Panels vs Foam: Which Should You Use? | GAIA",
+    metaDescription:
+      "Acoustic panels vs foam: both absorb sound, but PET panels suit finished interiors and foam suits studios. Compare absorption, mounting, looks and lifespan.",
+    excerpt:
+      "Both absorb echo. The real difference is where the treatment goes, who sees it, and how long it has to look good.",
+    category: "Acoustic Panels",
+    cluster: "acoustic-panels",
+    tags: ["Acoustic Panels", "PET Panels"],
+    author: "GAIA by Sanson Floorings",
+    location: "New Delhi",
+    publishedDate: "2026-10-07",
+    readTime: "6 min read",
+    coverImage:
+      "/Images/Blogs/acoustic-panels-vs-foam/hero-purple-acoustic-panels-lounge.webp",
+    coverImageAlt:
+      "Purple faceted acoustic panels covering the wall of a bright office lounge, with two people talking on a grey sofa beside a window",
+    ogImage:
+      "/Images/Blogs/acoustic-panels-vs-foam/og-acoustic-panels-vs-foam.jpg",
+    relatedProduct: {
+      name: "Acoustic PET Panels",
+      path: "/categories/acoustic-tiles",
+    },
+    faqs: [
+      {
+        question: "Are PET acoustic panels better than foam?",
+        answer:
+          "For finished interiors, usually yes: PET panels are rigid, can be cleaned, can be mounted with an air gap and come in colours, grooves and prints. Foam remains a reasonable choice for studios and hidden treatment.",
+      },
+      {
+        question: "Does acoustic foam soundproof a room?",
+        answer:
+          "No. Foam and panels both absorb sound inside a room to reduce echo. Stopping sound passing between rooms depends on the walls, doors, floor and ceiling.",
+      },
+      {
+        question: "Can acoustic panels be cleaned?",
+        answer:
+          "Yes. A rigid PET panel can be cleaned, which is one reason it suits busy commercial spaces. Ask us for the cleaning advice for the finish you choose.",
+      },
+    ],
+  },
+  {
+    id: 6,
+    slug: "carpet-tiles-vs-vinyl-flooring",
+    title: "Carpet Tiles vs Vinyl Flooring for Offices: Comfort, Noise, Cost and Upkeep",
+    seoTitle: "Carpet Tiles vs Vinyl Flooring for Offices | GAIA",
+    metaDescription:
+      "Carpet tiles vs vinyl flooring for offices: compare noise, comfort, cleaning and repairs, with a zone-by-zone list of where each floor works best.",
+    excerpt:
+      "Neither floor wins everywhere. Choose by zone: carpet tiles where people sit and talk, a hard floor where spills and rain come in.",
+    category: "Carpet Tiles",
+    cluster: "flooring-choices",
+    tags: ["Carpet Tiles", "Office Flooring"],
+    author: "GAIA by Sanson Floorings",
+    location: "New Delhi",
+    publishedDate: "2026-10-07",
+    readTime: "6 min read",
+    coverImage:
+      "/Images/Blogs/carpet-tiles-vs-vinyl-flooring/hero-office-desk-patterned-carpet-tiles.webp",
+    coverImageAlt:
+      "Office desk corner with a grey chair on a dark carpet tile floor patterned with gold triangles, and a plant beside the desk",
+    ogImage:
+      "/Images/Blogs/carpet-tiles-vs-vinyl-flooring/og-carpet-tiles-vs-vinyl-flooring.jpg",
+    relatedProduct: {
+      name: "Carpet Tiles",
+      path: "/categories/carpet-tiles",
+    },
+    faqs: [
+      {
+        question: "Are carpet tiles good for offices?",
+        answer:
+          "Yes. Carpet tiles reduce footfall noise, feel comfortable underfoot and can be replaced one tile at a time, which suits desks, meeting rooms and corridors.",
+      },
+      {
+        question: "Can carpet tiles be used in a pantry or kitchen area?",
+        answer:
+          "A hard floor is usually the better choice where spills and wet cleaning are daily events. Use carpet tiles in the surrounding work areas and a transition strip where they meet.",
+      },
+      {
+        question: "Is vinyl flooring noisy in an office?",
+        answer:
+          "Vinyl reflects more footstep and chair noise than carpet. In a large open office, that adds to the background noise unless the ceiling and walls are treated.",
+      },
+    ],
+  },
+  {
+    id: 7,
+    slug: "balcony-makeover-ideas-artificial-grass",
+    title: "Balcony Makeover Ideas with Artificial Grass",
+    seoTitle: "Balcony Makeover Ideas with Artificial Grass | GAIA",
+    metaDescription:
+      "Balcony makeover ideas with artificial grass: six layouts, which pile height suits a balcony, how to lay it over tiles and a measuring checklist.",
+    excerpt:
+      "A soft green floor, a few planters and light for the evenings. Six ideas, the right grass for a small space and a checklist before you order.",
+    category: "Artificial Grass",
+    cluster: "outdoor-living",
+    tags: ["Artificial Grass", "Landscape Grass", "Balcony"],
+    author: "GAIA by Sanson Floorings",
+    location: "New Delhi",
+    publishedDate: "2026-10-07",
+    readTime: "7 min read",
+    coverImage:
+      "/Images/Blogs/balcony-makeover-ideas-artificial-grass/hero-artificial-grass-garden-lounge.webp",
+    coverImageAlt:
+      "Garden lounge with a grey outdoor sofa, a round woven pouf and a timber coffee table on a green artificial lawn, with trees behind",
+    ogImage:
+      "/Images/Blogs/balcony-makeover-ideas-artificial-grass/og-balcony-makeover-ideas-artificial-grass.jpg",
+    relatedProduct: {
+      name: "Landscape Grass",
+      path: "/artificial-grass/landscape-grass",
+    },
+    faqs: [
+      {
+        question: "Can artificial grass be laid on balcony tiles?",
+        answer:
+          "Yes. On a clean, sound and level tiled floor, artificial grass is laid directly over the tiles, cut round the drain and secured at the edges.",
+      },
+      {
+        question: "What thickness of artificial grass is best for a balcony?",
+        answer:
+          "A short to medium pile suits most balconies. In the GAIA Landscape Grass range, SFL 20 to SFL 35 is easier to sweep and keep tidy under furniture.",
+      },
+      {
+        question: "Will artificial grass block my balcony drain?",
+        answer:
+          "It should not, if it is cut round the outlet and the floor slope is left as it is. Keep the drain open and reachable, and check it when you clean the grass.",
+      },
+    ],
+  },
+  {
     id: 4,
     slug: "acoustic-panels-air-gap",
     title: "Should Acoustic Panels Have an Air Gap? NRC, Depth and Wall Lights",
