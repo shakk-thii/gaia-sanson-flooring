@@ -1,5 +1,18 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/categories", "destination": "/index.html" },
+    { "source": "/categories/carpet-tiles", "destination": "/index.html" },
+    { "source": "/categories/broadloom-carpets", "destination": "/index.html" },
+    { "source": "/categories/acoustic-tiles", "destination": "/index.html" },
+    { "source": "/categories/artificial-multiturf", "destination": "/index.html" },
+    { "source": "/artificial-grass/landscape-grass", "destination": "/index.html" },
+    { "source": "/artificial-grass/sports-grass", "destination": "/index.html" },
+    { "source": "/artificial-grass/multisports-grass", "destination": "/index.html" },
+    { "source": "/artificial-grass/curly-grass", "destination": "/index.html" },
+    { "source": "/about-us", "destination": "/index.html" },
+    { "source": "/tools", "destination": "/index.html" },
+    { "source": "/demo", "destination": "/index.html" },
+    { "source": "/blogs", "destination": "/index.html" }
   ]
 }

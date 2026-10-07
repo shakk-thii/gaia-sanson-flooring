@@ -59,16 +59,28 @@
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-  <!-- Structured Data -->
+  <!-- Structured Data: one business identity for search engines and AI systems -->
   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
       "@type": "Organization",
-      "name": "GAIA - Sanson Group",
-      "url": "https://sansonfloorings.com",
-      "logo": "https://sansonfloorings.com/logo.png",
-      "description": "The New World of Flooring Fashion. Premium flooring and acoustic solutions combining innovation with purpose.",
+      "@id": "https://sansonfloorings.com/#organization",
+      "name": "GAIA by Sanson Floorings",
+      "alternateName": [
+        "GAIA",
+        "Sanson Floorings"
+      ],
+      "url": "https://sansonfloorings.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://sansonfloorings.com/Images/GAIA_Logo.png"
+      },
+      "description": "GAIA by Sanson Floorings makes carpet tiles, broadloom carpets, acoustic PET panels and artificial grass in India.",
       "foundingDate": "2021",
+      "email": "contact@sansonfloorings.com",
+      "telephone": "+919910921119",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "B-5B, Plot No. 70, 1st Floor, Rama Road Industrial Area",
@@ -79,25 +91,23 @@
       "contactPoint": {
         "@type": "ContactPoint",
         "telephone": "+919910921119",
+        "email": "contact@sansonfloorings.com",
         "contactType": "customer service",
-        "email": "contact@sansonfloorings.com"
+        "areaServed": "IN"
       },
       "sameAs": [
-        "",
-        "",
-        ""
+        "https://www.linkedin.com/company/gaia-by-sanson-floorings/"
       ]
-    }
-    </script>
-
-  <!-- Local Business Schema -->
-  <script type="application/ld+json">
+    },
     {
-      "@context": "https://schema.org",
       "@type": "LocalBusiness",
-      "name": "GAIA - Sanson Flooring",
-      "image": "https://sansonfloorings.com/business-image.jpg",
-      "description": "Premium flooring and acoustic solutions. From Gaia, the Greek goddess — Mother Earth, origin of life — to Prithvi, the vast and grounding force in Indian tradition.",
+      "@id": "https://sansonfloorings.com/#localbusiness",
+      "name": "GAIA by Sanson Floorings",
+      "url": "https://sansonfloorings.com/",
+      "image": "https://sansonfloorings.com/Images/GaiaHomePageImage1.webp",
+      "logo": "https://sansonfloorings.com/Images/GAIA_Logo.png",
+      "telephone": "+919910921119",
+      "email": "contact@sansonfloorings.com",
       "address": {
         "@type": "PostalAddress",
         "streetAddress": "B-5B, Plot No. 70, 1st Floor, Rama Road Industrial Area",
@@ -105,17 +115,24 @@
         "postalCode": "110015",
         "addressCountry": "IN"
       },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "28.6139",
-        "longitude": "77.2090"
-      },
-      "url": "https://sansonfloorings.com",
-      "telephone": "+919910921119",
       "openingHours": "Mo-Fr 09:00-18:00",
-      "priceRange": "$$"
+      "parentOrganization": {
+        "@id": "https://sansonfloorings.com/#organization"
+      }
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://sansonfloorings.com/#website",
+      "url": "https://sansonfloorings.com/",
+      "name": "GAIA by Sanson Floorings",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@id": "https://sansonfloorings.com/#organization"
+      }
     }
-    </script>
+  ]
+}
+  </script>
 </head>
 
 <body>

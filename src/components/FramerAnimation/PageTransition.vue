@@ -14,15 +14,17 @@
 
 <script setup>
 import { useRoute } from 'vue-router'
+import { applyRouteSeo, clearRouteSeo } from '../../seo/routeSeo.js'
 
 const route = useRoute()
 
 const onEnter = (el) => {
-  // Trigger any additional enter animations if needed
+  // Page-level SEO tags for the page that is entering (see src/seo).
+  applyRouteSeo(route.path)
 }
 
 const onLeave = (el) => {
-  // Trigger any additional leave animations if needed
+  clearRouteSeo()
 }
 </script>
 
