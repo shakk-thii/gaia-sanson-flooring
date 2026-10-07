@@ -47,7 +47,7 @@ const BlogsData = [
       {
         question: "What absorbs echo in a room?",
         answer:
-          "Soft, porous materials absorb echo: acoustic panels, carpet, heavy curtains and upholstered furniture. A GAIA PET acoustic panel absorbs 85 to 90 per cent of the sound that reaches it when mounted with an air gap.",
+          "Soft, porous materials absorb echo: acoustic panels, carpet, heavy curtains and upholstered furniture. Mounted with an air gap, a GAIA PET acoustic panel reaches NRC 0.85–0.90, absorbing on average 85 to 90 per cent of speech-range sound that reaches it.",
       },
       {
         question: "Does furniture reduce echo?",
@@ -101,7 +101,7 @@ const BlogsData = [
       {
         question: "Can acoustic panels go on a glass wall?",
         answer:
-          "Panels are fixed to solid walls, ceilings or frames rather than to glass. In glass-walled rooms, treat the solid walls, the ceiling and the floor instead.",
+          "Usually not directly. In glass-walled rooms the simplest approach is to treat the solid walls, the ceiling and the floor, or to use free-standing or frame-mounted panels near the glass.",
       },
     ],
   },
@@ -120,7 +120,7 @@ const BlogsData = [
     author: "GAIA by Sanson Floorings",
     location: "New Delhi",
     publishedDate: "2026-10-07",
-    readTime: "6 min read",
+    readTime: "7 min read",
     coverImage:
       "/Images/Blogs/acoustic-panels-vs-foam/hero-purple-acoustic-panels-lounge.webp",
     coverImageAlt:
@@ -164,7 +164,7 @@ const BlogsData = [
     author: "GAIA by Sanson Floorings",
     location: "New Delhi",
     publishedDate: "2026-10-07",
-    readTime: "6 min read",
+    readTime: "7 min read",
     coverImage:
       "/Images/Blogs/carpet-tiles-vs-vinyl-flooring/hero-office-desk-patterned-carpet-tiles.webp",
     coverImageAlt:
@@ -189,7 +189,7 @@ const BlogsData = [
       {
         question: "Is vinyl flooring noisy in an office?",
         answer:
-          "Vinyl reflects more footstep and chair noise than carpet. In a large open office, that adds to the background noise unless the ceiling and walls are treated.",
+          "Vinyl is louder underfoot than carpet, because footsteps and chair castors make more noise on a hard surface. An acoustic backing helps, but in a large open office a hard floor still adds to the background noise unless the ceiling and walls are treated.",
       },
     ],
   },
