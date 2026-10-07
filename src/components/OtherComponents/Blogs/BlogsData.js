@@ -36,7 +36,7 @@ const BlogsData = [
     coverImage:
       "/Images/Blogs/how-to-reduce-echo-in-a-room/hero-home-office-geometric-acoustic-wall-panels.webp",
     coverImageAlt:
-      "Home office desk with a laptop and a computer monitor in front of a wall of teal, mustard, orange and grey geometric acoustic panels",
+      "Wall of teal, mustard, orange and grey geometric acoustic panels with a leafy plant in front",
     ogImage:
       "/Images/Blogs/how-to-reduce-echo-in-a-room/og-how-to-reduce-echo-in-a-room.jpg",
     relatedProduct: {
@@ -64,7 +64,7 @@ const BlogsData = [
   {
     id: 8,
     slug: "noise-reduction-open-plan-office",
-    title: "Noise in Open-Plan Offices: Seven Fixes That Work",
+    title: "Noise Reduction in Open-Plan Offices: Seven Fixes That Work",
     seoTitle: "Noise Reduction in Open-Plan Offices: 7 Fixes | GAIA",
     metaDescription:
       "Noise reduction in an open-plan office: absorb speech at the ceiling and walls, soften the floor and zone loud and quiet work. Seven fixes, ranked.",
@@ -80,7 +80,7 @@ const BlogsData = [
     coverImage:
       "/Images/Blogs/noise-reduction-open-plan-office/hero-open-plan-office-ceiling-clouds.webp",
     coverImageAlt:
-      "Open-plan office with a dark purple ceiling, suspended rectangular ceiling panels with lights, red perforated screens and orange seating",
+      "Open-plan office with rows of purple ceiling baffles, suspended red and pink ceiling clouds with built-in lights, free-standing red felt screens and cork stools",
     ogImage:
       "/Images/Blogs/noise-reduction-open-plan-office/og-noise-reduction-open-plan-office.jpg",
     relatedProduct: {
@@ -122,9 +122,9 @@ const BlogsData = [
     publishedDate: "2026-10-07",
     readTime: "7 min read",
     coverImage:
-      "/Images/Blogs/acoustic-panels-vs-foam/hero-purple-acoustic-panels-lounge.webp",
+      "/Images/Blogs/acoustic-panels-vs-foam/hero-hexagon-acoustic-wall-panels.webp",
     coverImageAlt:
-      "Purple faceted acoustic panels covering the wall of a bright office lounge, with two people talking on a grey sofa beside a window",
+      "Wall of hexagonal acoustic panels shading from white at the top to charcoal at the bottom",
     ogImage:
       "/Images/Blogs/acoustic-panels-vs-foam/og-acoustic-panels-vs-foam.jpg",
     relatedProduct: {
@@ -212,7 +212,7 @@ const BlogsData = [
     coverImage:
       "/Images/Blogs/balcony-makeover-ideas-artificial-grass/hero-artificial-grass-garden-lounge.webp",
     coverImageAlt:
-      "Garden lounge with a grey outdoor sofa, a round woven pouf and a timber coffee table on a green artificial lawn, with trees behind",
+      "Garden lounge with a hanging egg chair, woven basket planters, a grey outdoor sofa and a timber coffee table on a green artificial lawn, with trees behind",
     ogImage:
       "/Images/Blogs/balcony-makeover-ideas-artificial-grass/og-balcony-makeover-ideas-artificial-grass.jpg",
     relatedProduct: {
