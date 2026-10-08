@@ -57,7 +57,5 @@ ${line('/tools')}
 ${articles.join('\n')}
 `;
 
-for (const dir of ['dist', 'public'].filter((d) => fs.existsSync(d))) {
-  fs.writeFileSync(path.join(dir, 'llms.txt'), text, 'utf8');
-}
+fs.writeFileSync(path.join('dist', 'llms.txt'), text, 'utf8');
 console.log(`llms.txt written (${articles.length} articles)`);
