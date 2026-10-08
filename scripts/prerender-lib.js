@@ -74,3 +74,27 @@ export function write(route, html) {
   fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf8');
 }
 
+
+// Site navigation and business footer, the same on every static page, so
+// crawlers see one consistent name, address, phone and email for GAIA.
+const SITE_NAV = [
+  ['/', 'Home'],
+  ['/categories/carpet-tiles', 'Carpet Tiles'],
+  ['/categories/broadloom-carpets', 'Broadloom Carpets'],
+  ['/categories/acoustic-tiles', 'Acoustic PET Panels'],
+  ['/categories/artificial-multiturf', 'Artificial Grass & Multiturf'],
+  ['/about-us', 'About us'],
+  ['/blogs', 'Blogs'],
+];
+
+export const siteNav = `<nav aria-label="Main"><ul>${SITE_NAV.map(
+  ([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`
+).join('')}</ul></nav>`;
+
+export const siteFooter = [
+  '<footer>',
+  '<p><strong>GAIA by Sanson Floorings</strong>, part of Sanson Group. Carpet tiles, broadloom carpets, acoustic PET panels and artificial grass, made in India.</p>',
+  '<address>B-5B, Plot No. 70, 1st Floor, Rama Road Industrial Area, New Delhi 110015, India. Phone: <a href="tel:+919910921119">+91 99109 21119</a>. Email: <a href="mailto:contact@sansonfloorings.com">contact@sansonfloorings.com</a></address>',
+  '<p><a href="https://www.linkedin.com/company/gaia-by-sanson-floorings/">GAIA by Sanson Floorings on LinkedIn</a></p>',
+  '</footer>',
+].join('\n');

@@ -18,6 +18,7 @@ const { chromium } = require('playwright');
 
 const BASE = process.argv[2] || 'http://localhost:4173';
 const ROUTES = [
+  '/',
   '/categories',
   '/categories/carpet-tiles',
   '/categories/broadloom-carpets',

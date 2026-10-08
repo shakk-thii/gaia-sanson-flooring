@@ -8,7 +8,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "generate-sitemap": "node scripts/generate-sitemap.js",
-    "postbuild": "npm run generate-sitemap && npm run prerender-blogs && npm run prerender-pages",
+    "postbuild": "npm run generate-sitemap && npm run generate-llms && npm run prerender-blogs && npm run prerender-pages",
+    "generate-llms": "node scripts/generate-llms.js",
     "prerender-blogs": "node scripts/prerender-blogs.js",
     "prerender-pages": "node scripts/prerender-pages.js"
   },

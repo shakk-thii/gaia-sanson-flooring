@@ -17,7 +17,7 @@ import {
   buildArticleSchemas,
   buildBlogListingSeo,
 } from '../src/components/OtherComponents/Blogs/BlogSeo.js';
-import { applyHead, esc, template, withBody, write } from './prerender-lib.js';
+import { applyHead, esc, siteFooter, siteNav, template, withBody, write } from './prerender-lib.js';
 
 const POSTS_DIR = 'src/components/OtherComponents/Blogs/BlogPosts';
 
@@ -32,7 +32,7 @@ const sorted = [...BlogsData].sort((a, b) => b.publishedDate.localeCompare(a.pub
         `<li><a href="/blogs/${blog.slug}">${esc(blog.title)}</a><p>${esc(blog.excerpt)}</p></li>`
     )
     .join('');
-  const body = `<main><nav aria-label="Breadcrumb"><a href="/">Home</a> / Blogs</nav><h1>Blogs</h1><ul>${items}</ul></main>`;
+  const body = `${siteNav}<main><nav aria-label="Breadcrumb"><a href="/">Home</a> / Blogs</nav><h1>Blogs</h1><ul>${items}</ul></main>${siteFooter}`;
   write('blogs', withBody(applyHead(template, seo), body));
 }
 
@@ -68,6 +68,7 @@ sorted.forEach((blog) => {
     : '';
 
   const body = [
+    siteNav,
     '<main>',
     `<nav aria-label="Breadcrumb"><a href="/">Home</a> / <a href="/blogs">Blogs</a> / ${esc(blog.title)}</nav>`,
     '<article>',
@@ -80,6 +81,7 @@ sorted.forEach((blog) => {
     relatedProduct,
     relatedList,
     '</main>',
+    siteFooter,
   ].join('\n');
 
   write(`blogs/${blog.slug}`, withBody(applyHead(template, seo), body));

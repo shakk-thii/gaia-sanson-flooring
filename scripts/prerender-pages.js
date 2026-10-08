@@ -14,24 +14,12 @@
 import fs from 'fs';
 import path from 'path';
 import { PAGE_SEO, buildPageSeo } from '../src/seo/siteSeo.js';
-import { applyHead, esc, template, withBody, write } from './prerender-lib.js';
+import { applyHead, esc, siteFooter, siteNav, template, withBody, write } from './prerender-lib.js';
 
 const snapshots = JSON.parse(
   fs.readFileSync(path.join('scripts', 'page-snapshots.json'), 'utf8')
 );
 
-// The same links visitors see in the navigation bar and footer.
-const siteNav = [
-  ['/categories/carpet-tiles', 'Carpet Tiles'],
-  ['/categories/artificial-multiturf', 'Artificial Grass & Multiturf'],
-  ['/categories/acoustic-tiles', 'Acoustic PET Panels'],
-  ['/categories/broadloom-carpets', 'Broadloom Carpets'],
-  ['/about-us', 'About us'],
-  ['/blogs', 'Blogs'],
-];
-const navHtml = `<nav aria-label="Main"><ul>${siteNav
-  .map(([href, label]) => `<li><a href="${href}">${esc(label)}</a></li>`)
-  .join('')}</ul></nav>`;
 
 let count = 0;
 for (const route of Object.keys(PAGE_SEO)) {
@@ -50,15 +38,25 @@ for (const route of Object.keys(PAGE_SEO)) {
     )
     .join(' / ');
   const body = [
-    navHtml,
+    siteNav,
     '<main>',
     `<nav aria-label="Breadcrumb">${breadcrumb}</nav>`,
     content,
     '</main>',
-    '<footer><p>GAIA by Sanson Floorings, B-5B, Plot No. 70, 1st Floor, Rama Road Industrial Area, New Delhi 110015. contact@sansonfloorings.com</p></footer>',
+    siteFooter,
   ].join('\n');
   write(route.slice(1), withBody(applyHead(template, seo), body));
   count += 1;
 }
 
-console.log(`Static pages written: ${count} product, category and about page(s)`);
+// Home page last: dist/index.html is also the template the other pages
+// were built from. Its head already carries the home page SEO and the
+// business JSON-LD, so only the visible content is added. Vue replaces
+// #app when it mounts, as on every other static page.
+if (snapshots['/']) {
+  const home = [siteNav, '<main>', snapshots['/'], '</main>', siteFooter].join('\n');
+  fs.writeFileSync(path.join('dist', 'index.html'), withBody(template, home), 'utf8');
+  count += 1;
+}
+
+console.log(`Static pages written: ${count} home, product, category and about page(s)`);
