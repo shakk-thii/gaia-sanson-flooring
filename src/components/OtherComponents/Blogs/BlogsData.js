@@ -47,7 +47,7 @@ const BlogsData = [
       {
         question: "What absorbs echo in a room?",
         answer:
-          "Soft, porous materials absorb echo: acoustic panels, carpet, heavy curtains and upholstered furniture. Mounted with an air gap, a GAIA PET acoustic panel reaches NRC 0.85–0.90, absorbing on average 85 to 90 per cent of speech-range sound that reaches it.",
+          "Soft, porous materials absorb echo: acoustic panels, carpet, heavy curtains and upholstered furniture. Of these, acoustic panels do the most for the wall area they cover, because they are made for the job.",
       },
       {
         question: "Does furniture reduce echo?",
@@ -140,7 +140,7 @@ const BlogsData = [
       {
         question: "Does acoustic foam soundproof a room?",
         answer:
-          "No. Foam and panels both absorb sound inside a room to reduce echo. Stopping sound passing between rooms depends on the walls, doors, floor and ceiling.",
+          "No. Foam, like any acoustic panel, only tames echo within the room it lines. Keeping sound in or out is a job for heavier, airtight construction.",
       },
       {
         question: "Can acoustic panels be cleaned?",
