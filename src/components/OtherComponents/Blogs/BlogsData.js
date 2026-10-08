@@ -32,7 +32,7 @@ const BlogsData = [
     author: "GAIA by Sanson Floorings",
     location: "New Delhi",
     publishedDate: "2026-10-07",
-    readTime: "11 min read",
+    readTime: "9 min read",
     coverImage:
       "/Images/Blogs/how-to-reduce-echo-in-a-room/hero-home-office-geometric-acoustic-wall-panels.webp",
     coverImageAlt:
@@ -45,19 +45,14 @@ const BlogsData = [
     },
     faqs: [
       {
-        question: "What absorbs echo in a room?",
+        question: "Do plants reduce echo?",
         answer:
-          "Soft, porous materials absorb echo: acoustic panels, carpet, heavy curtains and upholstered furniture. Of these, acoustic panels do the most for the wall area they cover, because they are made for the job.",
-      },
-      {
-        question: "Does furniture reduce echo?",
-        answer:
-          "Upholstered sofas, cushions, curtains and full bookshelves all reduce echo a little. They help, but a room with hard walls and a high ceiling usually still needs panels on the walls and absorption overhead.",
+          "Only slightly. Large, leafy plants scatter some sound and soften a corner, but they absorb far less than panels, carpet or curtains of the same size.",
       },
       {
         question: "Why does my new house echo so much?",
         answer:
-          "New homes are often finished in tile, plaster and glass, with little soft furniture yet. Every surface reflects sound, so echo is at its worst before rugs, curtains and furniture arrive.",
+          "New homes are finished in tile, plaster and glass and have little soft furniture at first. With every surface reflecting, echo is at its worst before rugs, curtains and sofas arrive.",
       },
     ],
   },
@@ -76,7 +71,7 @@ const BlogsData = [
     author: "GAIA by Sanson Floorings",
     location: "New Delhi",
     publishedDate: "2026-10-07",
-    readTime: "7 min read",
+    readTime: "5 min read",
     coverImage:
       "/Images/Blogs/noise-reduction-open-plan-office/hero-open-plan-office-ceiling-clouds.webp",
     coverImageAlt:
@@ -89,19 +84,14 @@ const BlogsData = [
     },
     faqs: [
       {
-        question: "What is the cheapest way to reduce noise in an open office?",
+        question: "Can acoustic panels carry our brand?",
         answer:
-          "Rearranging teams so that call-heavy and focus work sit apart costs little and often helps straight away. After that, treating the ceiling usually brings the largest improvement for the area covered.",
-      },
-      {
-        question: "Do desk screens reduce noise?",
-        answer:
-          "Screens block the direct sound between neighbouring desks, but sound still reaches people via the ceiling. They work best combined with ceiling absorption and a carpeted floor.",
+          "Yes. GAIA printed panels can carry your artwork or logo, so a wall can mark out a team area and absorb sound at the same time. Our article on printed acoustic feature walls covers artwork and lighting.",
       },
       {
         question: "Can acoustic panels go on a glass wall?",
         answer:
-          "Usually not directly. In glass-walled rooms the simplest approach is to treat the solid walls, the ceiling and the floor, or to use free-standing or frame-mounted panels near the glass.",
+          "Usually not directly. In glass-walled rooms, treat the solid walls, the ceiling and the floor, or use frame-mounted panels near the glass.",
       },
     ],
   },
@@ -120,7 +110,7 @@ const BlogsData = [
     author: "GAIA by Sanson Floorings",
     location: "New Delhi",
     publishedDate: "2026-10-07",
-    readTime: "7 min read",
+    readTime: "5 min read",
     coverImage:
       "/Images/Blogs/acoustic-panels-vs-foam/hero-hexagon-acoustic-wall-panels.webp",
     coverImageAlt:
@@ -135,17 +125,17 @@ const BlogsData = [
       {
         question: "Are PET acoustic panels better than foam?",
         answer:
-          "For finished interiors, usually yes: PET panels hold their shape, are easy to keep clean, can be mounted with an air gap and come in colours, grooves and prints. Foam remains a reasonable choice for studios and hidden treatment.",
+          "For finished interiors, usually yes, because they look like a wall finish, last longer in busy rooms and can stand off the wall. Foam remains a reasonable choice for studios and hidden treatment.",
       },
       {
-        question: "Does acoustic foam soundproof a room?",
+        question: "Do thicker acoustic panels absorb more?",
         answer:
-          "No. Foam, like any acoustic panel, only tames echo within the room it lines. Keeping sound in or out is a job for heavier, airtight construction.",
+          "Generally yes, especially lower-pitched sound. Standing a panel off the wall has a similar effect, so a slimmer panel on an air gap can outperform a thicker one fixed flat.",
       },
       {
-        question: "Can acoustic panels be cleaned?",
+        question: "Can you paint acoustic foam?",
         answer:
-          "Yes. A PET panel can be vacuumed with a soft brush attachment, which is one reason it suits busy commercial spaces. Ask us for the cleaning advice for the finish you choose.",
+          "It is best avoided. Paint seals the open cells that let sound in, so painted foam absorbs less. If colour matters, a panel made in that colour is the better route.",
       },
     ],
   },
@@ -179,7 +169,7 @@ const BlogsData = [
       {
         question: "Are carpet tiles good for offices?",
         answer:
-          "Yes. Carpet tiles reduce footfall noise, feel comfortable underfoot and can be replaced one tile at a time, which suits desks, meeting rooms and corridors.",
+          "Yes, for desks, meeting rooms, cabins and corridors. They are the quieter, more comfortable choice wherever people sit and talk for long periods.",
       },
       {
         question: "Can carpet tiles be used in a pantry or kitchen area?",
@@ -187,9 +177,9 @@ const BlogsData = [
           "A hard floor is usually the better choice where spills and wet cleaning are daily events. Use carpet tiles in the surrounding work areas and a transition strip where they meet.",
       },
       {
-        question: "Is vinyl flooring noisy in an office?",
+        question: "Can carpet tiles be laid over an existing vinyl floor?",
         answer:
-          "Vinyl is louder underfoot than carpet, because footsteps and chair castors make more noise on a hard surface. An acoustic backing helps, but in a large open office a hard floor still adds to the background noise unless the ceiling and walls are treated.",
+          "Often, if the existing floor is flat, clean and firmly bonded. Loose or damaged vinyl should come up first. We check the existing floor and the fixing method before quoting.",
       },
     ],
   },
@@ -208,7 +198,7 @@ const BlogsData = [
     author: "GAIA by Sanson Floorings",
     location: "New Delhi",
     publishedDate: "2026-10-07",
-    readTime: "7 min read",
+    readTime: "6 min read",
     coverImage:
       "/Images/Blogs/balcony-makeover-ideas-artificial-grass/hero-artificial-grass-garden-lounge.webp",
     coverImageAlt:
@@ -221,19 +211,19 @@ const BlogsData = [
     },
     faqs: [
       {
-        question: "Can artificial grass be laid on balcony tiles?",
+        question: "Does artificial grass need watering?",
         answer:
-          "Yes. On a clean, sound and level tiled floor, artificial grass is laid directly over the tiles, cut round the drain and secured at the edges.",
+          "No. An occasional rinse removes dust.",
       },
       {
-        question: "What thickness of artificial grass is best for a balcony?",
+        question: "Can I put plant pots on artificial grass?",
         answer:
-          "A short to medium pile suits most balconies. In the GAIA Landscape Grass range, SFL 20 to SFL 35 is easier to sweep and keep tidy under furniture.",
+          "Yes. Stand them on saucers or pot feet so water drains away instead of sitting in the grass, and move heavy pots now and then so the blades underneath can recover.",
       },
       {
-        question: "Will artificial grass block my balcony drain?",
+        question: "Does the same advice apply to a terrace?",
         answer:
-          "It should not, if it is cut round the outlet and the floor slope is left as it is. Keep the drain open and reachable, and check it when you clean the grass.",
+          "Mostly. A larger terrace can take a taller, lawn-like pile, but drainage, sun and fire safety need the same planning, and the bigger area makes the direction of joins more important.",
       },
     ],
   },
